@@ -19,6 +19,7 @@
   - Jumpbox inside VNet
   - VPN / Private connectivity (future)
 - VM operates as a private/internal server
+- Public IP can be enabled temporarily for maintenance if required
 ## CLI Verification Commands
 
 ### List VM and power state
