@@ -8,15 +8,17 @@
 - Size: Standard D2als v6 (2 vCPU, 4 GiB)  <!-- اگر فرق داشت اصلاح کن -->
 - VNet/Subnet: vnet-az104 / subnet-web
 - Private IP: 10.10.1.4  <!-- اگر فرق داشت اصلاح کن -->
-- Public IP: None (No public inbound access)
+- Public IP: Disabled (cost optimization and security)
+- Public IP can be temporarily enabled for maintenance if required
 
 ## Security Notes
-- Public IP removed to reduce attack surface
+- No public inbound access by default
+- Public IP disabled to minimize cost and attack surface
 - Access is intended via:
-  - Azure Bastion (recommended), OR
-  - Jumpbox inside VNet, OR
-  - VPN/Private connectivity (future)
-
+  - Azure Bastion (recommended)
+  - Jumpbox inside VNet
+  - VPN / Private connectivity (future)
+- VM operates as a private/internal server
 ## CLI Verification Commands
 
 ### List VM and power state
