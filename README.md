@@ -6,9 +6,7 @@ This repository documents a hands-on Azure Administrator lab designed to align w
 The project simulates a real-world scenario where a small company requires a **secure, monitored, and cost-optimized Linux server** deployed in Microsoft Azure.
 
 All components were implemented using Azure Portal and Azure CLI with a focus on best practices, least privilege, and operational readiness.
-
 ---
-
 ## Project Scenario
 A small organization requires:
 - A secure internal Linux server
