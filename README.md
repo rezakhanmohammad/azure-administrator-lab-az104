@@ -31,7 +31,7 @@ A small organization requires:
 
 ## Implemented Domains (AZ-104 Coverage)
 
-### 🔐 Identity & Access Management
+###  Identity & Access Management
 - Azure Entra ID users and groups
 - Group-based RBAC assignments
 - Least-privilege access model
@@ -41,7 +41,7 @@ A small organization requires:
 
 ---
 
-### 🌐 Networking
+###  Networking
 - Virtual Network and Subnet design
 - Subnet-level Network Security Group (NSG)
 - Restricted inbound access (no default public exposure)
@@ -51,7 +51,7 @@ A small organization requires:
 
 ---
 
-### 💻 Virtual Machines
+###  Virtual Machines
 - Linux VM deployment
 - SSH-based administration
 - VM lifecycle management
@@ -59,7 +59,7 @@ A small organization requires:
 
 ---
 
-### 💾 Storage
+###  Storage
 - Azure Storage Account concepts
 - Blob and File Share awareness
 - Private access considerations
@@ -67,7 +67,7 @@ A small organization requires:
 
 ---
 
-### 📊 Monitoring & Alerts
+###  Monitoring & Alerts
 - Azure Monitor metrics
 - CPU and network performance monitoring
 - Metric-based alert creation and validation
@@ -77,23 +77,23 @@ A small organization requires:
 
 ---
 
-### 🔄 Backup & Recovery
+###  Backup & Recovery
 - Recovery Services Vault
 - VM backup configuration
 - Restore awareness and validation
 - Data protection as an operational responsibility
 
-📄 Details: `operations/backup.md`
+ Details: `operations/backup.md`
 
 ---
 
-### ⚙️ Automation & CLI
+###  Automation & CLI
 - Azure CLI authentication and usage
 - VM start/stop and deallocate via CLI
 - Scheduled automation using Azure Automation
 - Cost optimization through deallocation
 
-📄 Details: `operations/automation.md`
+ Details: `operations/automation.md`
 
 ---
 
