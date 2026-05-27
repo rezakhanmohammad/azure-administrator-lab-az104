@@ -26,6 +26,9 @@ A small organization requires:
 - **Virtual Machine:** Linux VM (Ubuntu)
 - **Public Access:** Disabled by default
 - **Access Model:** Private / Controlled
+- ## Architecture Diagram
+
+![Architecture Diagram](docs/images/architecture-diagram.png)
 
 ---
 
